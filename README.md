@@ -1,7 +1,7 @@
 # Swahili-ASR-API
 Python & Javascript inference code to finetuned whispher model with mozilla common voice
 
-Note: The code in here work with finetuned model on swahili common voice dataset. The model is trained using [Whisperer_Mozilla_Sw_2000](https://huggingface.co/eddiegulay/Whisperer_Mozilla_Sw_2000).
+Note: The code in here work with finetuned model on swahili common voice dataset. The model is available at [Whisperer_Mozilla_Sw_2000](https://huggingface.co/eddiegulay/Whisperer_Mozilla_Sw_2000).
 
 
 ## How to use
