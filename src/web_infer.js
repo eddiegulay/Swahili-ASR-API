@@ -9,7 +9,7 @@ async function query(filename) {
                 method: "POST",
                 body: data,
                 headers: {
-                    Authorization: "Bearer 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",
+                    Authorization: access_token,
                 },
             }
         );

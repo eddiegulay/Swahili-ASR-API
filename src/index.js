@@ -3,7 +3,7 @@ async function query(filename) {
 	const response = await fetch(
 		"https://api-inference.huggingface.co/models/eddiegulay/Whisperer_Mozilla_Sw_2000",
 		{
-			headers: { Authorization: "Bearer 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" },
+			headers: { Authorization: access_token },
 			method: "POST",
 			body: data,
 		}
