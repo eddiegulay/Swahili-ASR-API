@@ -1,6 +1,5 @@
-async function query(filename) {
-    const data = new FormData();
-    data.append('file', filename);
+async function query(audioFile) {
+    const data = audioFile;
 
     try {
         const response = await fetch(
