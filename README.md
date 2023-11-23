@@ -5,7 +5,7 @@ Note: The code in here work with finetuned model on swahili common voice dataset
 
 
 ## How to use
-Just clone the repo and select the language you want to use. The code is written in python and javascript. The python code is used to run inference on the model and the javascript code is used to run the inference on the browser.
+Just clone the repo and select the language you want to use. The code is written in python and javascript. The python code is used to run inference on the model using `requests module` and the javascript code is used to run the inference on the browser.
 
 ### Javascript Web Inference
 For direct browser inference check web folder. It contain simple HTML file `index.html` that will allow you to upload file and get transcription.
