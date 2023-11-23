@@ -1,7 +1,7 @@
 # Swahili-ASR-API
 Python & Javascript inference code to finetuned whispher model with mozilla common voice
 
-Note: The code in here work with finetuned model on swahili common voice dataset. The model is trained using [whispher]().
+Note: The code in here work with finetuned model on swahili common voice dataset. The model is trained using [Whisperer_Mozilla_Sw_2000](https://huggingface.co/eddiegulay/Whisperer_Mozilla_Sw_2000).
 
 
 ## How to use
@@ -16,3 +16,8 @@ For node inference check `src/index.js`. It contain js request snippet that will
 
 ### Python Inference
 For python inference check `python/inference.py`. It contain python code that will allow you to specify file location, make RESTful request and get transcription.
+
+### Important
+Those Inference codes can be found in huggingface repository for the model and also you might want to get access token to use them. I'm totally cool to share the token with you. Just contact me on 
+- [twitter](https://twitter.com/eddiegulay)  
+- [linkedin](https://www.linkedin.com/in/eddiegulay/)
