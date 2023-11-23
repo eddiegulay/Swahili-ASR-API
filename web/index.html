@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASR Inference</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        #output {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ASR Inference</h1>
+    <input type="file" id="audioFileInput" accept=".flac, .wav">
+    <button onclick="processAudio()">Process Audio</button>
+    <div id="output"></div>
+    <script src="../src/web_infer.js"></script>
+</body>
+</html>
